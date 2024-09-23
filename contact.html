@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(img/doodles.webp);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header {
+            font-family: poppins, sans-serif;
+            background-color: rgb(111, 191, 232);
+            padding: 1px;
+            color: white;
+            text-align: center;
+        }
+
+        .top-nav {
+            font-family: poppins, sans-serif;
+            background-color: aliceblue;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .top-nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            margin-top: 30px;
+        }
+
+        .container h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #666;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+     <div class="header">
+        <h1>contact</h1>
+     </div>
+
+    <!-- Navigation -->
+    <div class="top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </div>
+
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <form action="https://submittarget.com" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Handayogi Tambunan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

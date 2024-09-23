@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            line-height: 1.6;
+            background-image: url(img/doodles.webp);
+        }
+
+        .header {
+            font-family: poppins, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: rgb(111, 191, 232);
+            padding: 10px;
+        }
+
+        .top-nav {
+            font-family: poppins, sans-serif;
+            background-color: aliceblue;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .top-nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .main-content {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        section {
+            max-width: 1000px;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+        }
+
+        section img {
+            width: 100%;
+        }
+
+        article {
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        article h2  {
+            font-family: poppins, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 15px;
+        }
+
+        details {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>kampus.</h1>
+    </div>
+
+    <!-- Navigation -->
+     <div class="top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </div>
+
+    <!-- Main Content -->
+     <div class="main-content">
+
+        <main>
+            <section id="articles">
+                <article>
+                    <img src="img/itera.jpg" alt="Institut Teknologi Sumatera">
+                    <h2>Institut Teknologi Sumatera</h2>
+                    <p>Institut Teknologi Sumatera adalah perguruan tinggi negeri di Lampung Selatan, Lampung, Indonesia. ITERA memiliki tiga jurusan dan 40 program sarjana, dengan 1 program pascasarjana di bidang fisika.</p>
+                    <details>
+                        <summary>Read more...</summary>
+                        <p>Institut Teknologi Sumatera, disingkat ITERA, adalah sebuah perguruan tinggi negeri yang terdapat di Provinsi Lampung di Pulau Sumatra. 
+                            Lokasinya berada di antara wilayah Kabupaten Lampung Selatan dengan Kota Bandar Lampung. ITERA didirikan berdasarkan Peraturan Presiden Nomor 124 Tahun 2014 tentang Pendirian Institut Teknologi Sumatera (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 253) yang ditetapkan 
+                            Presiden Republik Indonesia Dr. H. Susilo Bambang Yudhoyono pada tanggal 6 Oktober 2014 dan diundangkan tanggal 9 Oktober 2014. 
+                            Walaupun peresmiannya dilaksanakan pada tahun 2014, tetapi ITERA sudah memulai kegiatan akademik dengan menerima mahasiswa baru sejak tahun 2012-2013. 
+                            Selain ITB dan ITS, dengan dibukanya ITERA dan ITK, maka pemerintah Indonesia memiliki empat institut teknologi.</p>
+                        <p><a href="https://www.itera.ac.id/" target="_blank">Kunjungi Halaman ITERA</a></p>
+                    </details>
+                </article>
+
+                <article>
+                    <img src="img/itb.jpeg" alt="Institut Teknologi Bandung">
+                    <h2>Institut Teknologi Bandung</h2>
+                    <p>Institut Teknologi Bandung adalah universitas riset nasional yang berlokasi di Bandung, Indonesia. Institut ini telah menghasilkan banyak pemimpin terkemuka di bidang sains, teknik, politik, bisnis, akademisi, dan budaya.</p>
+                    <details>
+                        <summary>Read more...</summary>
+                        <p>Institut Teknologi Bandung (ITB) merupakan sekolah tinggi teknik pertama di Indonesia yang didirikan pada tanggal 2 Maret 1959 di Jawa Barat yang mengemban misi pengabdian ilmu pengetahuan dan teknologi untuk memajukan Indonesia. Lahir dalam suasana penuh dinamika yang dilandasi dengan semangat perjuangan Proklamasi Kemerdekaan, ITB hadir untuk mengoptimalkan pembangunan bangsa yang maju dan bermartabat.</p>
+                        <p><a href="https://www.itb.ac.id/" target="_blank">Kunjungi Halaman ITB</a></p>
+                    </details>
+                </article>
+
+                <article>
+                    <img src="img/its.jpg" alt="Institut Teknologi Sepuluh Nopember">
+                    <h2>Institut Teknologi Sepuluh Nopember</h2>
+                    <p>Institut Teknologi Sepuluh Nopember (ITS) merupakan Perguruan Tinggi Negeri Badan Hukum (PTNBH) berkelas dunia yang berkontribusi terhadap kemandirian bangsa dan menjadi rujukan dalam pendidikan, penelitian, pengabdian kepada masyarakat, serta pengembangan inovasi, terutama yang mendukung industri dan maritim.</p>
+                    <details>
+                        <summary>Read more...</summary>
+                        <p>Institut Teknologi Sepuluh Nopember melekat dengan sejarah perjuangan kemerdekaan Republik Indonesia. Berdirinya ITS dipelopori oleh para pahlawan kemerdekaan Indonesia sejak tahun 1957, dengan melibatkan dr. Angka Nitisastro, Soedjasmono, Kyai Haji Yahya Hasyim, dan didukung oleh Roeslan Abdulgani.</p>
+                        <p>Motto baru ITS Memajukan Kemanusiaan adalah menumbuhkan semangat baru dalam menciptakan inovasi melalui teknologi dan ilmu pengetahuan bagi masyarakat. Motto tersebut dipilih menjadi motivasi baru dalam terus berperan aktif bagi peradaban manusia sesuai nilai-nilai ITS. Vivat!</p>
+                        <p><a href="https://www.its.ac.id/" target="_blank">Kunjungi Halaman ITS</a></p>
+                    </details>
+                </article>
+            </section>
+        </main>
+     </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Handayogi Tambunan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
